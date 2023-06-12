@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="521dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/purple_500"
+            android:elevation="15dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Add Nutrition Information"
+            android:textColor="@color/white"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please input values for the following labels" />
+
+        <EditText
+            android:id="@+id/add_ServingSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Serving Size"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_calories"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Calories"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_totFat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Total Fat"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_cholesterol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Cholesterol"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_sodium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sodium"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_carbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Total Carbohydrate"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_dFiber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Dietary Fiber"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_sugar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Sugar"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/add_protein"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Protein"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+</LinearLayout>

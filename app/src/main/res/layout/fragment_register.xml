@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.register.RegisterFragment">
+
+    <TextView
+        android:id="@+id/registerBanner"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/registerWelcomeText"
+        android:textColor="@color/black"
+        android:textSize="34sp" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/login_background"
+        >
+
+        <ImageView
+            android:id="@+id/registerAppleLogo"
+            android:src="@mipmap/apple_logo"
+            android:layout_width="131dp"
+            android:layout_height="123dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintHorizontal_bias="0.757"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/apple_logo"
+            android:contentDescription="@string/apple_logo"/>
+
+
+        <ImageView
+            android:id="@+id/registerMachineLogo"
+            android:src="@mipmap/machine_learning_logo"
+            android:layout_width="117dp"
+            android:layout_height="125dp"
+            android:layout_marginTop="32dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/registerAppleLogo"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintHorizontal_bias="0.866"
+            android:contentDescription="@string/machine_logo" />
+
+        <EditText
+            android:id="@+id/inputRegisterUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="168dp"
+            android:autofillHints=""
+            android:background="@drawable/register_text_background"
+            android:drawableStart="@drawable/ic_add_person"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/register_username"
+
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/inputRegisterEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:autofillHints=""
+            android:background="@drawable/register_text_background"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/your_email"
+            android:textColorHint="@color/gray"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputRegisterUsername" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputRegisterPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/inputRegisterEmail"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="16dp"
+            app:hintTextColor="@color/gray"
+            app:passwordToggleEnabled="true"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputRegisterPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_text_background"
+                android:drawableStart="@drawable/ic_password"
+                android:hint="@string/password"
+                android:textColor="@color/black"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+
+
+                />
+
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/inputRegisterConfirmPasswordLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/inputRegisterPasswordLayout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="16dp"
+            app:hintTextColor="@color/gray"
+            app:passwordToggleEnabled="true"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputRegisterConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_text_background"
+                android:drawableStart="@drawable/ic_password"
+                android:hint="@string/ConfirmPassword"
+                android:textColor="@color/black"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+
+                />
+
+
+
+      </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/register_sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/register_text_background"
+            android:text="@string/create_account_button"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/inputRegisterConfirmPasswordLayout" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

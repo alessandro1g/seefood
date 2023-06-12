@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.1" />
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/layout/activity_auth.xml" value="0.1" />
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/layout/fragment_login.xml" value="0.11574074074074074" />
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/layout/fragment_register.xml" value="0.11574074074074074" />
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/School/CMSC436/SeeFood/app/src/main/res/menu/bottom_nav_menu_auth.xml" value="0.1175925925925926" />
+        <entry key="app/src/main/res/drawable-v24/ic_add_person.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable-v24/ic_email.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable-v24/ic_password.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable-v24/login_background.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable-v24/register_text_background.xml" value="0.272" />
+        <entry key="app/src/main/res/drawable/delete_account_btn_backgroun.xml" value="0.244" />
+        <entry key="app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.176" />
+        <entry key="app/src/main/res/drawable/ic_logout.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_person_remove.xml" value="0.1355" />
+        <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.2195" />
+        <entry key="app/src/main/res/drawable/ic_settings_logo.xml" value="0.2245" />
+        <entry key="app/src/main/res/drawable/layout_divider.xml" value="0.242" />
+        <entry key="app/src/main/res/drawable/settings_border.xml" value="0.1685" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/custom_layout.xml" value="0.2078804347826087" />
+        <entry key="app/src/main/res/layout/food_item.xml" value="0.24864130434782608" />
+        <entry key="app/src/main/res/layout/fragment_camera.xml" value="0.25226449275362317" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1671875" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.13044579533941236" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1671875" />
+        <entry key="app/src/main/res/layout/fragment_register.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/preferences.xml" value="0.23233695652173914" />
+        <entry key="app/src/main/res/layout/settings_activity.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/layout/settings_logout_btn.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/settings_menu.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/update_name_layout.xml" value="0.2078804347826087" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu_main.xml" value="0.26875" />
+        <entry key="app/src/main/res/menu/menu_logout.xml" value="0.265625" />
+        <entry key="app/src/main/res/menu/menu_settings.xml" value="0.125" />
+        <entry key="app/src/main/res/menu/settings_menu.xml" value="0.25" />
+        <entry key="app/src/main/res/menu/settings_meu.xml" value="0.12604166666666666" />
+        <entry key="app/src/main/res/xml/preferences.xml" value="0.25" />
+        <entry key="app/src/main/res/xml/prefernces.xml" value="0.26132246376811596" />
+        <entry key="app/src/main/res/xml/root_preferences.xml" value="0.15309446254071662" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
